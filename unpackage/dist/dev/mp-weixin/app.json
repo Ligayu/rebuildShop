@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "鲸落",
+    "navigationBarBackgroundColor": "#d8edf2",
+    "backgroundColor": "#d8edf2",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 60
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/icon-index-b.png",
+        "selectedIconPath": "static/tabs/icon-index-r.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tabs/icon-cate-off.png",
+        "selectedIconPath": "static/tabs/icon-cate-on.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabs/icon-cart-b.png",
+        "selectedIconPath": "static/tabs/icon-cart-r.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabs/icon-center-b.png",
+        "selectedIconPath": "static/tabs/icon-center-r.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap94.json"
+}
